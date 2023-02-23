@@ -1,7 +1,7 @@
 @font-face {
     font-family: "segment7-4gml-webfont";
-    src: url("segment7-4gml-webfont.woff");
-    src: url("segment7-4gml-webfont.woff2");
+    src: url("./assets/segment7-4gml-webfont.woff");
+    src: url("./assets/segment7-4gml-webfont.woff2");
     font-weight: normal;
 }
 
@@ -26,7 +26,7 @@
 
 /*Conainers*/
 body {
-    background-image: url("desk2.jpg");
+    background-image: url("./assets/desk2.jpg");
 }
 
 .main   {
