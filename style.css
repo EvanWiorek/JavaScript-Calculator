@@ -69,7 +69,7 @@ body {
 
 /*Buttons*/
 .buttons-body {
-    background-image: url("bg.jpg");
+    background-image: url("./assets/bg.jpg");
     text-align: center;
     padding: 20px 10px;
 }
