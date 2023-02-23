@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "segment7-4gml-webfont";
+    src: url("segment7-4gml-webfont.woff");
+    src: url("segment7-4gml-webfont.woff2");
+    font-weight: normal;
+}
+
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+
+/*Universal Containersss*/
+.flex   {
+    display: flex;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+/*Conainers*/
+body {
+    background-image: url("desk2.jpg");
+}
+
+.main   {
+    background-image: linear-gradient(250deg, #dddddd, #ebeaea);
+    width: 330px;
+    margin: auto;
+    border: 8px solid #858585;
+    border-radius: 10px;
+    position: absolute;
+    top: 235px;
+    left: 585px;
+    box-shadow: 5px -5px 20px -3px rgb(0, 0, 0, .3);
+}
+
+/*Calculator Head (logo and display screen)*/
+#display    {
+    font-family: "segment7-4gml-webfont";
+    width: 263px;
+    text-align: right;
+    background-color: #bcc9bc;
+    margin: 20px 30px;
+    font-size: 3.8rem;
+    padding: 3px 6px 0px 6px;
+    border-radius: 3px;
+    border-top: 1px solid #4f5452;
+    border-left: 1px solid #4f5452;
+}
+
+.calculator-top {
+    text-align: center;
+}
+
+.gray-line {
+    height: .5rem;
+    width: 333px;
+    background-color: #858585;
+    border-bottom: 1.6px solid #626262;
+}
+
+
+/*Buttons*/
+.buttons-body {
+    background-image: url("bg.jpg");
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.num-button, .decimal {
+    font-size: 1.8rem;
+    background-image: linear-gradient(250deg, #4a4748, #353233);
+    outline: 4px solid #8a8788;
+    border-top: 3px solid #5a5858;
+    border-left: 3px solid #5a5858;
+    border-bottom: 3px solid #282828;
+    border-right: 3px solid #282828;
+    border-radius: 10px;
+    margin: 7px;
+    color: #fefefe;
+    padding: 0px 18px;
+    cursor: pointer;
+}
+
+.num-button:hover, .decimal:hover {
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .4);
+}
+
+
+.operator, .equals{
+    font-size: 1.8rem;
+    background-image: linear-gradient(250deg, #686666, #5c5a5b);
+    outline: 4px solid #8a8788;
+    border-top: 2px solid #959394;
+    border-left: 2px solid #959394;
+    border-bottom: 2px solid #4f4d4e;
+    border-right: 3px solid #4f4d4e;
+    border-radius: 10px;
+    margin: 7px;
+    color: #fefefe;
+    padding: 0px 18px;
+    cursor: pointer;
+}
+
+.operator:hover, .equals:hover {
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .25);
+}
+
+.clear {
+    font-size: 1.8rem;
+    background-image: linear-gradient(250deg, #cd8154, #c27146);
+    outline: 4px solid #8a8788;
+    border-top: 3px solid #ee9b6a;
+    border-left: 2px solid #f9bf8e;
+    border-bottom: 3px solid #b65a32;
+    border-right: 3px solid #b65a32;
+    border-radius: 10px;
+    margin: 7px;
+    color: #fefefe;
+    padding: 0px 18px;
+    cursor: pointer;
+}
+
+.clear:hover {
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+}
+
+.equals {
+    width: 280px;
+}
